@@ -6,5 +6,9 @@ pip3 install dnspython certstream shodan
 
 Change api_key to your shodan key
 
-USage:  
+Usage:  
 python3 certport.py
+
+OR if you'd like to save what you find to files named after each port
+
+python3 certports.py
