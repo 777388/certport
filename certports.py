@@ -194,4 +194,4 @@ def on_message(message, context):
             pass
         
 
-certstream.listen_for_events(on_message)
+certstream.listen_for_events(on_message, url="wss://certstream.calidog.io/")
